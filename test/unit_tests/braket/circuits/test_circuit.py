@@ -998,7 +998,7 @@ def test_add_verbatim_invalid_marker():
     class InvalidMarker:
         pass
 
-    with pytest.raises(ValueError, match="Unsupported marker type"):
+    with pytest.raises(TypeError, match="Unsupported marker type"):
         context.add_verbatim_marker(InvalidMarker())
 
 

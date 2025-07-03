@@ -186,5 +186,5 @@ class BraketProgramContext(AbstractProgramContext):
         elif isinstance(marker, VerbatimBoxEnd):
             instruction = Instruction(EndVerbatimBox(), target=[])
         else:
-            raise ValueError("Unsupported marker type")
+            raise TypeError("Unsupported marker type")
         self._circuit.add_instruction(instruction)
