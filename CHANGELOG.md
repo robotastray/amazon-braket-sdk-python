@@ -1,5 +1,27 @@
 # Changelog
 
+## v1.97.0 (2025-08-13)
+
+### Features
+
+ * Program sets
+
+## v1.96.1 (2025-08-05)
+
+### Bug Fixes and Other Changes
+
+ * Fix applying readout error with ObservableResultType and MeasureCriteria
+
+## v1.96.0 (2025-07-17)
+
+### Features
+
+ * Add Emerald
+
+### Bug Fixes and Other Changes
+
+ * positional param issue for shots in tests
+
 ## v1.95.0 (2025-07-01)
 
 ### Features
